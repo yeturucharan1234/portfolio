@@ -18,3 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
         bar.style.width = percentage + '%';
     });
 });
+document.querySelector('a[href="https://drive.google.com/uc?export=download&id=1-GeT7IV-mJc9sezDnX4pl8pbLbsayJSs"]').addEventListener('click', function (e) {
+    e.preventDefault(); // Prevent default link behavior (if needed)
+    window.open('https://drive.google.com/uc?export=download&id=1-GeT7IV-mJc9sezDnX4pl8pbLbsayJSs', '_blank');
+});
